@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+h4, h3, p {
+    margin: 0;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+/* LAYOUT AND BACKGROUND COLOUR */
+
+.container {
+    width: 600px;
+    height: 380px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.top-box {
+    height: 44%;
+    background-color: white;
+}
+
+.bottom-box {
+    display: flex;
+    height: 56%;
+}
+
+.top-box, .bottom-box {
+    width: 100%;
+}
+
+.left-box {
+    background-color:#2ab2af;
+}
+
+.right-box{
+    background-color: #29b9b5;
+    font-size: 13px;
+}
+
+.left-box, .right-box {
+    flex: 50%;
+    color: white;
+    height: 100%;
+}
+
+
+/* STYLING TEXTS */
+
+h3, #para, #heading {
+    margin-left: 30px;
+}
+
+.top-box > h3 {
+    color: #20c0c0; 
+    padding-top: 30px;
+}
+
+.top-box > #heading {
+    color: #d0eb36;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.top-box > #para {
+    color: #babbbd;
+    padding-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.left-box > h4 {
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.left-box > p {
+    margin-left: 30px;
+}
+
+.pricing {
+    display: flex;
+}
+
+.pricing > h2, .pricing > p {
+    margin-left: 30px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pricing > p {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+
+button {
+    background-color: #d0eb36;
+    border: none;
+    width: 210px;
+    height: 33px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    box-shadow: 2px 3px 7px 0px #00000059;
+}
+
+.right-box > #why-us {
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 18px;
+    font-weight: 200;
+}
+
