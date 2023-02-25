@@ -13,7 +13,7 @@ h4, h3, p {
 }
 
 body {
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 
 /* LAYOUT AND BACKGROUND COLOUR */
@@ -107,13 +107,14 @@ h3, #para, #heading {
     margin-left: 10px;
     margin-top: 25px;
     font-weight: 200;
+    opacity: 0.8;
 }
 
 
 button {
     background-color: #d0eb36;
     border: none;
-    width: 210px;
+    width: 235px;
     height: 33px;
     border-radius: 5px;
     margin-top: 20px;
@@ -122,6 +123,13 @@ button {
     padding-top: 10px;
     padding-bottom: 25px;
     box-shadow: 2px 3px 7px 0px #00000059;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a8c213;
+    transform: scale(1.05);
 }
 
 .right-box > #why-us {
@@ -133,5 +141,6 @@ ul {
     list-style-type: none;
     line-height: 18px;
     font-weight: 200;
+    opacity: 0.8;
 }
 
